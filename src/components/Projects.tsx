@@ -1,7 +1,7 @@
-"use client";
 
 import { motion } from "framer-motion";
-import { ArrowUpRight, Github } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
+import { siGithub } from 'simple-icons'
 
 export default function Projects() {
   const projects = [
@@ -70,7 +70,7 @@ export default function Projects() {
             >
               {/* Subtle hover glow effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-[#1A1A1A]/[0.05] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
-              
+
               <div className="relative z-10 flex justify-between items-start mb-8">
                 <span className="text-xs md:text-sm font-medium text-[#1A1A1A]/60 uppercase tracking-widest bg-[#1A1A1A]/5 px-3 py-1 rounded-full">
                   {project.category}
