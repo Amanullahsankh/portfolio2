@@ -1,3 +1,5 @@
+"use client";
+
 import ScrollyCanvas from "@/components/ScrollyCanvas";
 import About from "@/components/About";
 import Education from "@/components/Education";
